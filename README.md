@@ -35,7 +35,7 @@ Anywhere you see <code>/Users/*username*/</code>, you can use a <code>~/</code> 
 
 If you haven't already used it for the first step, find your shell (e.g. you may be using [zshrc]() or bash) and add 
 ```
-python3 /Users/username/friendly_terminal/randline.py /Users/username/friendly_terminal/quotes_for_terminal.txt [your name]</code>
+python3 /Users/username/friendly_terminal/randline.py /Users/username/friendly_terminal/quotes_for_terminal.txt [your name]
 ```
 Substitute the name you would like to be greeted by for <code>[your name]</code>!
 Your terminal will return one greeting each time you run this command, so run it as many times as you like to preview your encouraging phrases.
@@ -52,7 +52,7 @@ If you do not have a .bash_profile, navigate to your home directory and (in your
 
 Once you open your .bash_profile, add 
 ```
-<code>python3 /Users/<username>/randline.py /Users/<username>/quotes_for_terminal.txt</code> [your name]
+python3 /Users/<username>/randline.py /Users/<username>/quotes_for_terminal.txt [your name]
 ```
 the same way you did in your terminal earlier. If you haven't already, you're likely to be adding lots of customizations to your .bash_profile in the future, so it would be a good idea to add a comment explaining that this line runs the Friendly Terminal app!
 
